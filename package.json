@@ -1,4 +1,8 @@
 {
+    "name": "hardhat-fund-me",
+    "author": "abhishek-s",
+    "version": "1.0.0",
+    "license": "MIT",
   "devDependencies": {
     "@chainlink/contracts": "^0.5.1",
     "@ethersproject/abi": "^5.4.7",
@@ -19,5 +23,9 @@
     "solhint": "^3.3.7",
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0"
-  }
+  },
+    "scripts": {
+        "lint": "yarn prettier --check .",
+        "lint:fix": "yarn prettier --write ."
+    }
 }
